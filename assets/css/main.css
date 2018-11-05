@@ -17,6 +17,26 @@
 	border-color: rgba(0,0,0, 0.15) !important;
 }
 
+
+@media screen and (max-width: 736px) {
+	#intro {
+	padding-top: 100px;
+	}
+
+  #sidebar {
+	  display: block !important;
+	  height: auto !important;
+	}
+	
+  #sidebar nav ul {
+		flex-direction: row !important;
+		flex-wrap: wrap !important;
+  }
+
+  #sidebar nav > ul > li:first-child {
+	  margin: 0 0 0 2em !important;
+  }
+}
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
