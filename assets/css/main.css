@@ -2536,19 +2536,19 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			width: 2.5em;
-			height: 2.5em;
+			width: 2em;
+			height: 2em;
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
 			color: #242850;
 			text-align: center;
-			line-height: 2.5em;
+			line-height: 1.85em;
 			margin: 0 0 1.3em 0;
 		}
 
 			.icon.major:before {
-				font-size: 1.25em;
+				font-size: .55em;
 			}
 
 				.wrapper.style1 .icon.major:before {
